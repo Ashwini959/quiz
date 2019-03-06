@@ -1,13 +1,13 @@
 <button (click)="previous()"  [disabled]="btnDisable">previous</button>
-<button (click)="next()" [hidden]="btn_next">Next</button><br>
-<button (click)="submit()" hidden>Submit</button>
+<button (click)="next()" [hidden]="btn_next">Next</button>
+<button (click)="submit()" [hidden]="btn_submit">Submit</button>
 <div>
 {{this.id}}.
 {{product1.question_txt}}<br>
 {{product1.correct_ans}}<br>
 <span *ngFor="let item of product1.option| keyvalue">
-    {{item.key}}.{{item.value}}<br>
-</span>
+    <input type="radio" name="option">{{item.value}}<br><br>
+  </span>
 </div>
 
 
