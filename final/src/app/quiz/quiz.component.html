@@ -1,0 +1,22 @@
+<button (click)="previous()"  [disabled]="btnDisable">previous</button>
+<button (click)="next()" [hidden]="btn_next">Next</button><br>
+<button (click)="submit()" hidden>Submit</button>
+<div>
+{{this.id}}.
+{{product1.question_txt}}<br>
+{{product1.correct_ans}}<br>
+<span *ngFor="let item of product1.option| keyvalue">
+    {{item.key}}.{{item.value}}<br>
+</span>
+</div>
+
+
+  <!-- <div *ngFor="let entry of product1 | keyvalue">           
+        {{entry.key}} {{entry.value.question_txt}}{{entry.value.correct_ans}}
+    <span *ngFor="let i of entry.value.option| keyvalue ">
+            {{i.key}}
+            {{i.value}}
+    </span>
+   </div>
+
+    -->

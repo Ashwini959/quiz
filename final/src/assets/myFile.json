@@ -1,0 +1,40 @@
+{
+    "final_arr": {
+        "112": {
+           "question_txt": "what color is sky?",
+            "correct_ans": "blue",
+            "option": {
+                "1": "green",
+                "2": "blue",
+                "3": "violet"
+            }
+        },
+        "111": {
+            "question_txt": "what color is the rose?",
+            "correct_ans": "red",
+            "option": {
+                "1": "red ",
+                "2": "green",
+                "3": "white"
+            }
+        },
+        "113": {
+            "question_txt": "what color is apple?",
+             "correct_ans": "red",
+             "option": {
+                 "1": "red",
+                 "2": "blue",
+                 "3": "violet"
+             }
+         },
+         "114": {
+            "question_txt": "what color is water?",
+             "correct_ans": "blue",
+             "option": {
+                 "1": "green",
+                 "2": "blue",
+                 "3": "violet"
+             }
+         }
+    }
+}
